@@ -1,0 +1,47 @@
+body {
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    color: #ffffff;
+    text-shadow: 0px 0px 2px black;
+    background: linear-gradient(#a2d2ff, #EFB0c9) ;
+}
+.div{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.photo {
+    width: 300px;
+    border-radius: 50%;
+    border: #EFB0c9 solid 7px; 
+}
+#bday-age {
+    background-color: #EFB0c9;
+    border-radius: 2px;
+    padding: 5px 15px;
+}
+#bday-date {
+    background-color: #EFB0c9;
+    margin-top: 2px;
+    padding: 5px 15px;
+}
+.gift-cover{
+    background-image: url("/image/gift-cover.jpeg");
+    background-size: cover;
+    width: 500px;
+    height: 500px;
+    border: #ffffff solid 3px;
+    border-radius: 20px;
+}
+.gift-title{
+    margin-top: 40px;
+}
+.gift-hint{
+    margin-top: 0px;
+}
+#gift-cover-happy:hover {
+    background-image:url("https://media.giphy.com/media/l3vRabxJJKmSmlIAw/giphy.gif");
+}
+#gift-cover-people:hover {
+    background-image:url("https://media.giphy.com/media/DyQrKMpqkAhNHZ1iWe/giphy.gif");
+}
